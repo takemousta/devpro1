@@ -1,0 +1,40 @@
+{
+  "name": "javacript-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate of Vanilla-JavaScript,html5, css",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --fix 'src/**/*.js'",
+    "stylelint": "stylelint --fix 'src/**/*.scss'",
+    "format": "npm run eslint && npm run stylelint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takemousta/devpro1"
+  },
+  "author": "Takemoto Mustapha",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.0.3",
+    "browserlist": "^1.0.1",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.1.10",
+    "prettier": "^2.2.0",
+    "sass": "^1.29.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0",
+    "tailwindcss": "^2.0.1",
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.4.0"
+  }
+}
