@@ -1,0 +1,4 @@
+*.html
+dist/
+# all javascript files that start with dot
+!.*.js
